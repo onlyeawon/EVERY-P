@@ -4,7 +4,6 @@
 
 html {
   background-color: #eadec4;
-
   font-family: Avenir, 'Futura W01', helvetica, san-serif;
   font-size: 100%;
   font-weight: 300;
@@ -104,6 +103,19 @@ main {
     grid-template-rows: 1rem 3rem 14rem 6rem 4rem 1fr;
 
     justify-content: center;
+
+    transform: rotate(-40deg);
+  }
+
+  .circle {
+    grid-row: 4/7;
+    grid-column: 1/3;
+
+    width: 200px;
+    height: 200px;
+
+    background-color: #eadec4;
+    border-radius: 50%;
   }
 
   .box1 {
