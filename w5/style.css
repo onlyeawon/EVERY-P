@@ -52,6 +52,14 @@ main {
   }
 }
 @media (min-width: 600px) and (max-width: 1000px) {
+  .circle {
+    grid-row: 6/7;
+    grid-column: 3/4;
+    width: 200px;
+    height: 200px;
+    background-color: #ebd8b0;
+    mix-blend-mode: color-burn;
+  }
   .box1 {
     grid-row: 3/7;
     grid-column: 1/2;

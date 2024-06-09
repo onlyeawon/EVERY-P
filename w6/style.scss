@@ -30,8 +30,6 @@ main {
   transform: rotate(-40deg);
 }
 
-// writing-mode: vertical-lr;
-
 @media (min-width: 400px) {
   main {
     display: grid;
@@ -46,7 +44,6 @@ main {
     height: 200px;
     background-color: #f8efde;
     border-radius: 50%;
-    // mix-blend-mode: luminosity;
   }
 
   .box1 {
