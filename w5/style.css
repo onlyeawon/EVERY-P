@@ -71,7 +71,7 @@ main {
     grid-row: 4/6;
     grid-column: 5/6;
     background-color: brown;
-    transform: rotate(60deg);
+    transform: rotate(-60deg);
     mix-blend-mode: color-burn;
   }
   h1 {
